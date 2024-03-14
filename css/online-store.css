@@ -1,0 +1,85 @@
+/* importing font */
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+
+body {
+	color: #1d1d1f;
+	font-family: "SF Pro Display", sans-serif;
+}
+
+h1 {
+	line-height: 60px;
+	font-size: 56px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.btn-sm {
+	/* made the buy buttons rounded */
+	border-radius: 30px;
+	padding: 2px 20px;
+}
+
+/* styling to the name of the products */
+.card-title {
+	font-size: 24px;
+	line-height: 28px;
+}
+
+/* styling to the price of the products */
+.card-text {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+/* image responsiveness implementation */
+.card-img-top:hover {
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+
+footer {
+	/* spacing and color changes to the contact section*/
+	margin-bottom: 40px;
+	margin-top: 40px;
+	background-color: #1d1d1f;
+	color: #fff;
+	padding: 40px 0;
+}
+
+/* contact us heading styling changes */
+h2 {
+	text-align: left;
+	margin-bottom: 40px;
+}
+
+label {
+	font-weight: 800;
+	float: left;
+}
+
+.contactBtn {
+	border-radius: 5px;
+	/* left-align the button */
+	float: left;
+}
+
+form {
+	margin-left: 90px;
+}
+
+.logo {
+	margin-left: 50px;
+	margin-top: 45px;
+}
+
+/* apply a media query to not apply a margin left to the logo if the screen is less than 1000px */
+
+@media (max-width: 1000px) {
+	.logo {
+		display: none;
+	}
+	form {margin-left: 50px;}
+}
+/* references:
+https://www.cdnfonts.com/sf-pro-display.font
+*/
